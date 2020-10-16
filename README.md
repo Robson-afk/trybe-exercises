@@ -1,12 +1,12 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Robson Batista Widne](https://www.linkedin.com/in/frontend-robsonwidnef/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Robson Batista Widnef](https://www.linkedin.com/in/frontend-robsonwidnef/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## {c:gold}📗Introdução - Fundamentos do Desenvolvimento Web{/c} :hourglass_flowing_sand:
+## 📗 Introdução - Fundamentos do Desenvolvimento Web:hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
@@ -85,7 +85,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
-## 📘Desenvolvimento Front-end :hourglass_flowing_sand:
+## 📘 Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 
@@ -141,7 +141,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [ ] 19-1: _[Projeto - App de Receitas]()_
 
- ## 📗Desenvolvimento Back-end :hourglass_flowing_sand:
+ ## 📗 Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
@@ -237,7 +237,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [ ] 34-1: _[Projeto - Trybeer V2]()_
 
-## 📘gitCiência da Computação :hourglass_flowing_sand:
+## 📘 gitCiência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
