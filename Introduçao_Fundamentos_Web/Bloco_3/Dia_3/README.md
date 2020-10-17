@@ -1,10 +1,12 @@
 ---
+
 <h4 align="center">📍Khan Academy </h4>
-<h3 align="center">📝 Descrição Atividade - Desafio: _'Modelo Boxer'_</h3>
+
+<h3 align="center">📝 Descrição Atividade - Desafio: *Modelo* *Boxer* </h3>
 
 ---
 
-#### <p align="center"><mark>Agrupamento de elementos</mark> <mark>Largura, altura e overflow</mark> <mark>Modelo de caixa CSS</mark></p>
+#### <p align="center"> - [x] Agrupamento de elementos  - [x] Largura, altura e overflow - [x] Modelo de caixa CSS</p>
 
 > Adicione bordas:
 
@@ -20,20 +22,20 @@
 
 ___
 
-<h3 align="center">📝 Desafio: _'Posicionamento do planeta'_ </h3>
+<h3 align="center">📝 Desafio: *Posicionamento* *do* *planeta* </h3>
 
 ---
-#### <p align="center"><mark>Position Relative</mark> <mark>Position Absolute</mark> <mark>Float</mark></p>
+#### <p align="center"> - [x] Position Relative - [x] Position Absolute - [x] Float</p>
 > Posicione a criatura
 
 * Essa página web contém uma imagem de um planeta, uma imagem de uma criatura, e uma div com uma saudação. Seu trabalho é fazer com que a criatura pareça estar sentada no planeta e dizendo a saudação. Nessa primeira etapa, use posicionamento absoluto para colocar a criatura em algum lugar em cima do planeta.
   
 ---
 
-<h3 align="center">📝 Desafio: Nuvens _'flutuantes'_</h3>
+<h3 align="center">📝 Desafio: *Nuvens* *flutuantes*</h3>
 
 ---
-<p align="center"><mark>Float</mark></p>
+<p align="center"> - [x] Float</p>
 
 > Torne a imagem flutuante
 
@@ -49,10 +51,10 @@ ___
 
 ---
 
-<h3 align="center">📝 Desafio: _'Descendentes de Khan'_</h3>
+<h3 align="center">📝 Desafio: *Descendentes* *de* *Khan*</h3>
 
 ---
-<p align="center"><mark>Combinação de Classes e Seletores</mark> <mark>Seletores Descendentes</mark></p>
+<p align="center"> - [x] Combinação de Classes e Seletores - [x] Seletores Descendentes</p>
 
 > Adicione regras descendentes - 1
 
