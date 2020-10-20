@@ -3,28 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="grid.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Dia 04 - Stomatopoda</title>
+    <title>Stomatopoda</title>
   </head>
 
   <body>
-    <header class="header">
+    <header id="pag-first" class="header">
       <nav class="header__menu">
         <ul>
-          <li><a href="">Página Inicial</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="#pag-first">Página Inicial</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
-      <div class="header__title">
-        <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
-      </div>
     </header>
 
     <section class="section__caracteristica">
-      <div class="container tam">
+      <div class="container">
+        <h1 id="sobre" >Soco a 80km/h: Conheça o Stomatopoda</h1>
         <table class="section__table">
           <tr>
             <td colspan="2">Classificação Científica:</td>
@@ -65,7 +64,7 @@
           <h2>Fatos sobre o Stomatopoda</h2>
           <h3>Soco mais potente do reino animal?</h3>
           <div class="grid-7">
-            <img src="img/aqua.jpg" alt="" />
+            <img src="img/aqua.jpg" alt="crustáceo Stomatopoda"/>
           </div>
           <div class="grid-9 artigo__content">
             <p>
@@ -105,7 +104,7 @@
               </p>
             </div>
             <div class="grid-7 second__event">
-              <img src="img/img-2.jpg" alt="" />
+              <img src="img/img-2.jpg" alt="visão Stomatopoda" />
             </div>
           </div>
         </section>
@@ -113,7 +112,7 @@
         <section class="container event">
           <h3>Habitat</h3>
           <div class="grid-7">
-            <img src="img/img-3.jpg" alt="" />
+            <img src="img/img-3.jpg" alt="crustáceo Stomatopoda" />
           </div>
           <div class="grid-9 event__one">
             <p>
@@ -127,7 +126,7 @@
           </div>
         </section>
 
-        <section class="container">
+        <section class="container biblio">
           <h3>Bibliografia</h3>
           <div class="grid-12 selector__biblio">
             <ul>
@@ -176,7 +175,16 @@
 
         <footer class="rodape">
           <div class="container">
-            <p>Conteúdo compilado por Robson Batista Widnef</p>
+            <div class="grid-9">
+              <p>Conteúdo compilado por Robson Batista Widnef</p>
+            </div>
+            <div class="grid-7">
+              <ul>
+                <li id="contact"><a href="https://www.instagram.com/robinho_e_ana/" target="_blank"><img src="img/logo-instagram-2.svg" alt="logo instagram"></a></li>
+                <li><a href="https://github.com/Robson-afk" target="_blank"><img src="img/logo-github-2.svg" alt="logo github"></a></li>
+                <li><a href="https://www.linkedin.com/in/frontend-robsonwidnef/" target="_blank"><img src="img/linkedin-logo-2.svg" alt="logo linkedin"></a></li>
+              </ul>
+            </div>
           </div>
         </footer>
       </article>
