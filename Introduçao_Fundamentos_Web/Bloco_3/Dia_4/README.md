@@ -11,6 +11,8 @@
 
 ---
 
+<h3 align="center"> Descrição:</h3>
+
 * O objetivo desse exercício é colocar em prática o que se  aprendeu sobre **HTML semântico** no quarto dia.
 
 * Para tal será criada uma página que apresenta um dos animais mais impressionantes que existem: *o Stomatopoda*. 
