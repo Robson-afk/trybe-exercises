@@ -1,4 +1,6 @@
-# Trybe
+gif-trybe.gif
+
+
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Robson Batista Widnef](https://www.linkedin.com/in/frontend-robsonwidnef/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
