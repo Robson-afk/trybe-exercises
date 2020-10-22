@@ -2,7 +2,7 @@
 
 ---
 
-![Dia 4](img/stomatopoda-tela.gif)
+![](img/stomatopoda-tela.gif)
 
 <h4 align="center">Alguma das referências usadas aqui:</h4>
 
