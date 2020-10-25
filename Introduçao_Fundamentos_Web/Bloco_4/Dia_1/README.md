@@ -1,6 +1,5 @@
-<h1 align="center">📗 Atividades do Dia:</h1>
+<h3 align="center">📗 Atividades do Dia:</h3>
 
----
 
 Nos exercícios de hoje, serão feitos quinze pequenos programas. Todos trabalham a lógica condicional (if/else e switch), operadores aritméticos (+, -, *, /, %) e operadores lógicos (>, <, &&, ||). Para que consiga executar seus códigos recomendamos que utilize a extensão Code Runner.
 
