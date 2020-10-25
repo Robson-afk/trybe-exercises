@@ -1,8 +1,8 @@
 <h3 align="center">:rocket: Introdução à JavaScript e Lógica de Programação</h3>
 
+---
 
-
->### O que vamos aprender?
+### O que vamos aprender?
 
 Aqui iremos aprender sobre a linguagem de programação **JavaScript**.
 
