@@ -1,4 +1,4 @@
-<h3 align="center">:rocket: Introdução à JavaScript e Lógica de Programação</h3>
+<h2 align="center">:rocket: Introdução à JavaScript e Lógica de Programação</h2>
 
 
 >### O que vamos aprender?
