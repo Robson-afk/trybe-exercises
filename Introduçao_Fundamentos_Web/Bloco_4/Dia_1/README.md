@@ -1,4 +1,4 @@
-<h1 align="center">📗 Atividades do Dia:</h1>
+<h3 align="center">📗 Atividades do Dia:</h3>
 
 ---
 
