@@ -2,7 +2,7 @@
 
 ---
 
-## O que vamos aprender?
+#### O que vamos aprender?
 
 Aqui iremos aprender sobre a linguagem de programação **JavaScript**.
 
