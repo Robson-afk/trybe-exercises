@@ -7,7 +7,7 @@
 <h4 align="center">Alguma das referências usadas aqui:</h4>
 
 *  **Reset** de *Érick Mayer*.
-*  Parte de um Sistema de grid baseado no [Squeleton](http://getskeleton.com/) , um pouco modificado.
+*  Parte de um Sistema de grid baseado no [Skeleton](http://getskeleton.com/) , um pouco modificado.
 
 ---
 
