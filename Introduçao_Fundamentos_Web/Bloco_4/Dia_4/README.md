@@ -24,13 +24,13 @@ Usando o objeto abaixo, faça os exercícios a seguir:
     Valor esperado no console:
 
 
-       {
-      personagem: 'Margarida',
-      origem: 'Pato Donald',
-      nota: 'Namorada do personagem principal nos quadrinhos do Pato 
-      Donald',
-      recorrente: 'Sim'
-    };
+          {
+         personagem: 'Margarida',
+         origem: 'Pato Donald',
+         nota: 'Namorada do personagem principal nos quadrinhos do Pato 
+         Donald',
+         recorrente: 'Sim'
+       };
 
 4. Faça um **for/in** que mostre todas as chaves do objeto.
     Valor esperado no consol
