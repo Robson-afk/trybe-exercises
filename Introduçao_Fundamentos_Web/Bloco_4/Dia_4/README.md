@@ -19,6 +19,7 @@ Usando o objeto abaixo, faça os exercícios a seguir:
     Valor esperado no console: **Bem-vinda, Margarida**
 
 2. Insira no objeto uma nova propriedade com o nome de chave "recorrente" e o valor "Sim" e, em seguida, imprima o objeto no console.
+3. 
 
     Valor esperado no console:
 
@@ -31,7 +32,7 @@ Usando o objeto abaixo, faça os exercícios a seguir:
       recorrente: 'Sim'
     };
 
-3. Faça um **for/in** que mostre todas as chaves do objeto.
+4. Faça um **for/in** que mostre todas as chaves do objeto.
     Valor esperado no consol
 
       personagem
