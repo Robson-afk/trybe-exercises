@@ -51,4 +51,4 @@ Para os próximos dois exercícios [leia este artigo](http://devfuria.com.br/log
 
 
 
-     [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54]
+         [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54]
