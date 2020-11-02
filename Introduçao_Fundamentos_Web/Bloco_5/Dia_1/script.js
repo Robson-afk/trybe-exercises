@@ -8,3 +8,8 @@ document.getElementsByClassName("center-content")[0].style.backgroundColor = "#f
 /* Exercício 4 */
 document.getElementsByClassName("title")[0].innerText = "Exercicio 5.1 - JavaScript";
 /* Exercicio 5 */
+document.getElementsByTagName("p");
+/* Exercicio 6 */
+console.log(document.getElementsByTagName("p").innerText);
+
+ 
