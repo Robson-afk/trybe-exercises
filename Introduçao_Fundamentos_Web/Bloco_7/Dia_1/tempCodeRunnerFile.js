@@ -1,3 +1,8 @@
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-oddsAndEvens.sort((a, b) => a - b);
-console.log(oddsAndEvens);
+const fatorial = (numero) => {
+  let result = 1;
+  for(let index = 2; index <= numero; index += 1) {
+    result *= index;
+  }
+  return result;
+}
+  console.log(fatorial(4));
