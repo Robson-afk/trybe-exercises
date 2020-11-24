@@ -1,4 +1,3 @@
-
 let custoProduto = 1;
 let valorVenda = 3;
 
