@@ -34,11 +34,11 @@ const diasDoMes = () => {
     listaUl.appendChild(listaLi);
 
     if (dia == 24 | dia == 31) {
-      listaLi.className = 'day holiday lista-list';
+      listaLi.className = 'day holiday';
     }else if (dia == 4 | dia == 11 | dia == 18) {
       listaLi.className = 'day friday';
     }else if (dia == 25) {
-      listaLi.className = 'day friday holiday lista-list';
+      listaLi.className = 'day friday holiday';
     }else {
       listaLi.className = 'day';
     }
@@ -57,24 +57,42 @@ const diasDoMes = () => {
   btnFeriado ('Feriados');
 
   // Exercicio 3
-  //const diasH = document.querySelectorAll('.holiday'); //  CLASSE
-  const diasH = document.querySelector('.lista-list'); // BOTÃO
-  const novaCor = 'violet';
+  function callback () {
+    const diasClasse = document.querySelectorAll('.holiday');
+    const corDeFundo = 'rgb(238,238,238)';
+    const mudaFundo = 'violet';
 
-  function callback (event) {
-    //const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
-    for (let index in dezDaysList) {
-      if (dezDaysList[index] == diasH) {
-        event.toggle('novaCor');
+    for (let index in diasClasse) {
+      if (diasClasse[index].style.backgroundColor == mudaFundo) {
+        diasClasse[index].style.backgroundColor = corDeFundo;
+      }else {
+        diasClasse[index].style.backgroundColor = mudaFundo;
       }
     }
-   // event.currentTarget.diasH('ativo');
   }
+  const btn1 = document.getElementById('btn-holiday');
   btn1.addEventListener('click', callback);
 
+  // Exercicio 4
+  const btnSexta = string => {
+    const divBtn2 = document.querySelector('.buttons-container');
+    const btn2 = document.createElement('button');
+    btn2.innerHTML = string;
+    btn2.id = 'btn-friday';
+    divBtn2.appendChild(btn2);
+  }
+  btnSexta ('Sexta-feira');
+
+  // Exercicio 5
+  function callback () {
+    
+  }
+  const btn2 = document.querySelector('#btn-friday');
+  btn2.addEventListener('click', callback);
 /* 
-* Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
 
-* É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)" .
+* Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
+
+* É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.
+
 */
-
