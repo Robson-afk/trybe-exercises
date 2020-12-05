@@ -1,14 +1,10 @@
 //  DECLARAÇÕES GERAIS
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
-//const listaUl = document.getElementsByClassName('week-days')[0];
-//const listaLi = document.createElement('li');
-//listaLi.classList('lista-list');
-//listaUl.appendChild(listaLi);
+const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
 
 // ---
 const createDaysOfTheWeek = () => {
-  const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
   const weekDaysList = document.querySelector('.week-days');
 
   for (let index = 0; index < weekDays.length; index += 1) {
@@ -30,7 +26,6 @@ const diasDoMes = () => {
     const dia = dezDaysList[index];
     const listaLi = document.createElement('li');
     listaLi.innerHTML = dia;
-    //listaLi.className = 'lista-list';
     listaUl.appendChild(listaLi);
 
     if (dia == 24 | dia == 31) {
@@ -84,11 +79,24 @@ const diasDoMes = () => {
   btnSexta ('Sexta-feira');
 
   // Exercicio 5
+  
+/*
   function callback () {
-    
+   const array = [ 4, 11, 18, 25 ];
+   const sextaClasse = document.getElementsByClassName('friday');
+   const modificaTexto = 'SEXTOU';
+
+    for (let index in sextaClasse) {
+      if (sextaClasse[index].innerHTML !== modificaTexto) {
+        sextaClasse[index] = modificaTexto;
+    }else {
+        sextaClasse[index] = array[index];
+      }
+    }
   }
   const btn2 = document.querySelector('#btn-friday');
   btn2.addEventListener('click', callback);
+  */
 /* 
 
 * Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
