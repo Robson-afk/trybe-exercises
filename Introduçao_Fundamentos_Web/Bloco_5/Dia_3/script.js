@@ -16,7 +16,7 @@ const createDaysOfTheWeek = () => {
   };
 };
 
-createDaysOfTheWeek();
+createDaysOfTheWeek;
 // Exercicio 1
 
 const diasDoMes = () => {
