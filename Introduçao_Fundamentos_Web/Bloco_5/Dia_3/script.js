@@ -16,7 +16,7 @@ const createDaysOfTheWeek = () => {
   };
 };
 
-createDaysOfTheWeek;
+createDaysOfTheWeek();
 // Exercicio 1
 
 const diasDoMes = () => {
@@ -52,21 +52,21 @@ const diasDoMes = () => {
   btnFeriado ('Feriados');
 
   // Exercicio 3
-  function callback () {
+  function evento2 () {
     const diasClasse = document.querySelectorAll('.holiday');
     const corDeFundo = 'rgb(238,238,238)';
     const mudaFundo = 'violet';
 
-    for (let index in diasClasse) {
-      if (diasClasse[index].style.backgroundColor == mudaFundo) {
-        diasClasse[index].style.backgroundColor = corDeFundo;
+    for (let item in diasClasse) {
+      if (diasClasse[item].style.backgroundColor == mudaFundo) {
+        diasClasse[item].style.backgroundColor = corDeFundo;
       }else {
-        diasClasse[index].style.backgroundColor = mudaFundo;
+        diasClasse[item].style.backgroundColor = mudaFundo;
       }
     }
   }
   const btn1 = document.getElementById('btn-holiday');
-  btn1.addEventListener('click', callback);
+  btn1.addEventListener('click', evento2);
 
   // Exercicio 4
   const btnSexta = string => {
@@ -79,28 +79,26 @@ const diasDoMes = () => {
   btnSexta ('Sexta-feira');
 
   // Exercicio 5
-  
-/*
-  function callback () {
-   const array = [ 4, 11, 18, 25 ];
-   const sextaClasse = document.getElementsByClassName('friday');
-   const modificaTexto = 'SEXTOU';
 
-    for (let index in sextaClasse) {
-      if (sextaClasse[index].innerHTML !== modificaTexto) {
-        sextaClasse[index] = modificaTexto;
+  function eventoSexta () {
+    const array = [ 4, 11, 18, 25 ];
+    const sextaClasse = document.querySelectorAll('.friday');
+    const modificaTexto = 'SEXTOU';
+
+    for (let index = 0; index < sextaClasse.length; index += 1) {
+      if (sextaClasse[index].innerText == modificaTexto) {
+        sextaClasse[index].innerText = array[index];
     }else {
-        sextaClasse[index] = array[index];
+        sextaClasse[index].innerText = modificaTexto;
       }
     }
   }
-  const btn2 = document.querySelector('#btn-friday');
-  btn2.addEventListener('click', callback);
-  */
+  const btnN = document.querySelector('#btn-friday');
+  btnN.addEventListener('click', eventoSexta);
+
+  
 /* 
+* Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
 
-* Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
-
-* É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.
-
+* event.target Dica - Propriedade:
 */
