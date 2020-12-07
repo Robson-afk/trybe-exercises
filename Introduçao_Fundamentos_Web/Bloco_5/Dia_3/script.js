@@ -55,7 +55,7 @@ const diasDoMes = () => {
   function evento2 () {
     const diasClasse = document.querySelectorAll('.holiday');
     const corDeFundo = 'rgb(238,238,238)';
-    const mudaFundo = 'violet';
+    const mudaFundo = 'magenta';
 
     for (let item in diasClasse) {
       if (diasClasse[item].style.backgroundColor == mudaFundo) {
@@ -96,9 +96,62 @@ const diasDoMes = () => {
   const btnN = document.querySelector('#btn-friday');
   btnN.addEventListener('click', eventoSexta);
 
+  // Exercicio 6
+  function dayMouseOver() {
+    let days3 = document.querySelector('.week-days');
   
-/* 
-* Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
+    days3.addEventListener('mouseover', function(event) {
+      event.target.style.fontSize = '30px';
+      event.target.style.fontWeight = '600';
+    })
+  };
+  
+  function dayMouseOut() {
+    let days3 = document.querySelector('.week-days');
+  
+    days3.addEventListener('mouseout', function(event) {
+      event.target.style.fontWeight = '200';
+      event.target.style.fontSize = '20px';
+    })
+  };
+  
+  dayMouseOver();
+  dayMouseOut();
 
-* event.target Dica - Propriedade:
+  //  Exercicio 7
+function tarefaPersonalizada (task) {
+  const divTask = document.querySelector('.my-tasks')
+  const criarTarefa = document.createElement('span');
+  criarTarefa.innerHTML = task;
+  divTask.appendChild(criarTarefa);
+}
+tarefaPersonalizada ('Jantar:');
+
+// Exercicio 8
+function corLegendaTarefa (string) {
+  const divPai = document.querySelector('.my-tasks')
+  const divCor = document.createElement('div');
+  divCor.className = 'task';
+  //divCor.style.borderRadius = '50%';
+  divCor.style.borderColor = string;
+  divCor.style.backgroundColor = string;
+  divPai.appendChild(divCor);
+}
+corLegendaTarefa ('magenta');
+
+//  Exercicio 9
+function corTarefa (event) {
+  event.target.classList.toggle('selected');
+}
+const corTarefaSelecionada = document.querySelector('.task');
+corTarefaSelecionada.addEventListener('click', corTarefa);
+
+//  Exercicio 10
+
+  
+/*
+* Implemente uma função que adiciona um evento que ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
+
+* Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) .
+
 */
