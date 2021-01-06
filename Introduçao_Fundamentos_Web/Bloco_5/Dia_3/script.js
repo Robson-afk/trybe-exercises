@@ -131,7 +131,7 @@ tarefaPersonalizada ('Jantar:');
 function corLegendaTarefa (string) {
   const divPai = document.querySelector('.my-tasks')
   const divCor = document.createElement('div');
-  divCor.className = 'task';
+  divCor.className = 'task selected';
   //divCor.style.borderRadius = '50%';
   divCor.style.borderColor = string;
   divCor.style.backgroundColor = string;
@@ -147,7 +147,18 @@ const corTarefaSelecionada = document.querySelector('.task');
 corTarefaSelecionada.addEventListener('click', corTarefa);
 
 //  Exercicio 10
-
+function colorido (event) {
+  if (divCor === divSelected) {
+     mudaCorDia = divCorBack;
+  }
+}
+const divCor = document.querySelector('.task');
+divCorBack = divCor.style.backgroundColor;
+const divSelected = document.querySelector('.selected');
+const mudaCorDia = document.querySelectorAll('day');
+  mudaCorDia.forEach(element => {
+  element.addEventListener('click', colorido);
+});
   
 /*
 * Implemente uma função que adiciona um evento que ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
