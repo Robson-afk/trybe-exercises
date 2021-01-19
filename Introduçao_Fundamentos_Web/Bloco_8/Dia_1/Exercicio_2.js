@@ -63,13 +63,13 @@ const books = [
   },
 ];
 
-function smallerName() {
+const smallerName = () => {
   let nameBook;
-  books.forEach((element) => {
-    element
+  books.forEach((book) => {
+    if (!nameBook || book.name.length < nameBook.length) {
+      nameBook = book.name;
+    }
   })
-
-  // Variável nameBook que receberá o valor do menor nome;
   return nameBook;
 }
 
